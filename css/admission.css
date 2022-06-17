@@ -1,0 +1,828 @@
+#upload-img {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.profile-images {
+  border: none !important;
+}
+
+.inputimgBox {
+  height: 100px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.inputimgBox .fileupload {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.inputimgBox .profile-images-card {
+  width: 100px;
+  background-color: #1E497E;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.inputimgBox input {
+  display: none;
+}
+
+.admission {
+  padding: 40px 70px;
+}
+
+.admission .block1 .admissionCol form .formRow1 {
+  width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL {
+  width: 60% !important;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  margin-bottom: 10px;
+  font-weight: 500;
+  height: 50px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .fieldName {
+  width: 180px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span input {
+  border: 2px solid #1E497E;
+  border-radius: 4px;
+  height: 40px;
+  width: 250px;
+  padding: 5px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .widthfull {
+  width: 70%;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR {
+  width: 40% !important;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 {
+  height: 100px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: end !important;
+  position: relative !important;
+  margin-bottom: 10px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 .custom-file {
+  cursor: pointer;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 .fileupload {
+  width: 100%;
+  height: 100%;
+  cursor: pointer !important;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 .profile-images-card {
+  width: 100px;
+  background-color: #1E497E;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 #upload-img {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 .profile-images {
+  border: none !important;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: left;
+  height: 50px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span .fieldName {
+  width: 180px;
+}
+
+.admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span input {
+  border: 2px solid #1E497E;
+  border-radius: 4px;
+  height: 40px;
+  width: 250px;
+  padding: 5px;
+}
+
+.admission .block1 .admissionCol form .formRow2 span {
+  font-weight: 500;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.admission .block1 .admissionCol form .formRow2 span .fieldName {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.admission .block1 .admissionCol form .formRow2 span input {
+  border: 2px solid #1E497E;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+}
+
+.admission .block1 .admissionCol form .formRow2 span .widthfull {
+  width: 70%;
+}
+
+.admission .block1 .admissionCol form .formRow3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.admission .block1 .admissionCol form .formRow3 span {
+  font-weight: 500;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admission .block1 .admissionCol form .formRow3 span .fieldName {
+  width: 300px;
+}
+
+.admission .block1 .admissionCol form .formRow3 span input {
+  border: 2px solid #1E497E;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+}
+
+.admission .block1 .admissionCol form .formRow3 span .widthfull {
+  width: 70%;
+}
+
+.admission .block1 .admissionCol form .formRow4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.admission .block1 .admissionCol form .formRow4 span {
+  font-weight: 500;
+  height: 50px;
+}
+
+.admission .block1 .admissionCol form .formRow4 span .fieldName {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.admission .block1 .admissionCol form .formRow4 span input {
+  border: none;
+  border-bottom: 2px solid #1E497E;
+  border-radius: none;
+  height: 20px;
+  width: 100%;
+  padding: 5px;
+}
+
+.admission .block1 .admissionCol form .formRow4 span .widthfull {
+  width: 70%;
+}
+
+.admission .block1 .textBlock {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.admission .block1 .textBlock h1 {
+  font-size: 55px;
+  color: #1E497E;
+  font-weight: bold;
+}
+
+.admission .block1 .textBlock p {
+  font-size: 25px;
+  color: #1E497E;
+  font-weight: 500;
+}
+
+@media (max-width: 950px) {
+  .admission {
+    padding: 20px;
+  }
+  .admission .block1 .admissionCol form .formRow1 {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL {
+    width: 100% !important;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-weight: 500;
+    height: 50px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .fieldName {
+    width: 180px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR {
+    width: 100% !important;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 {
+    height: 100px;
+    font-weight: 500;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span .fieldName {
+    width: 180px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 250px;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow2 span {
+    font-weight: 500;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .admission .block1 .admissionCol form .formRow2 span .fieldName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .admission .block1 .admissionCol form .formRow2 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow2 span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .admissionCol form .formRow3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .admission .block1 .admissionCol form .formRow3 span {
+    font-weight: 500;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .admission .block1 .admissionCol form .formRow3 span .fieldName {
+    width: 300px;
+  }
+  .admission .block1 .admissionCol form .formRow3 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow3 span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .admissionCol form .formRow4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow4 span {
+    font-weight: 500;
+    height: 50px;
+    text-align: center;
+  }
+  .admission .block1 .admissionCol form .formRow4 span .fieldName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow4 span input {
+    border: none;
+    border-bottom: 2px solid #1E497E;
+    border-radius: none;
+    height: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow4 span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .textBlock {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .admission .block1 .textBlock h1 {
+    font-size: 55px;
+    color: #1E497E;
+    font-weight: bold;
+  }
+  .admission .block1 .textBlock p {
+    font-size: 25px;
+    color: #1E497E;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 600px) {
+  .admission {
+    padding: 20px;
+  }
+  .admission .block1 .admissionCol form .formRow1 {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL {
+    width: 100% !important;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 500;
+    height: 60px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .fieldName {
+    width: 180px;
+    font-size: 12px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldL .inputBox span .widthfull {
+    width: 100%;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR {
+    width: 100% !important;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox1 {
+    height: 100px;
+    font-weight: 500;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
+    height: 60px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span .fieldName {
+    width: 180px;
+    font-size: 12px;
+  }
+  .admission .block1 .admissionCol form .formRow1 .formfieldR .inputBox2 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow2 span {
+    font-weight: 500;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  .admission .block1 .admissionCol form .formRow2 span .fieldName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 12px;
+  }
+  .admission .block1 .admissionCol form .formRow2 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 93%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .admission .block1 .admissionCol form .formRow3 span {
+    font-weight: 500;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .admission .block1 .admissionCol form .formRow3 span .fieldName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 12px;
+  }
+  .admission .block1 .admissionCol form .formRow3 span input {
+    border: 2px solid #1E497E;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow3 span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .admissionCol form .formRow4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .admission .block1 .admissionCol form .formRow4 span {
+    font-weight: 500;
+    height: 60px;
+    text-align: center;
+  }
+  .admission .block1 .admissionCol form .formRow4 span .fieldName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow4 span input {
+    border: none;
+    border-bottom: 2px solid #1E497E;
+    border-radius: none;
+    height: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px;
+  }
+  .admission .block1 .admissionCol form .formRow4 span .widthfull {
+    width: 70%;
+  }
+  .admission .block1 .textBlock {
+    text-align: center;
+    margin: 50px 0px;
+  }
+  .admission .block1 .textBlock h1 {
+    font-size: 25px;
+    color: #1E497E;
+    font-weight: bold;
+  }
+  .admission .block1 .textBlock p {
+    font-size: 16px;
+    color: #1E497E;
+    font-weight: 500;
+  }
+}
+
+/* photo upload box */
+.photoDiv {
+  position: relative;
+}
+
+.photoDiv .containers {
+  height: 100px;
+  max-width: 100px;
+  margin: auto;
+}
+
+.imageWrapper {
+  border: 3px solid #1E497E;
+  width: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: -40px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.imageWrapper img {
+  height: 105%;
+  width: initial;
+  max-height: 100%;
+  max-width: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.file-upload {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.file-upload {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  overflow: hidden;
+  margin: 10px !important;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  font-size: 10px !important;
+  font-size: 1.2em;
+  background: #1E497E;
+  border: 2px solid #1E497E;
+  padding: .85em 1em;
+  display: inline;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.file-upload:hover {
+  background: #1E497E;
+}
+
+.file-upload input.file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+}
+
+input {
+  outline: none;
+}
+/*# sourceMappingURL=admission.css.map */

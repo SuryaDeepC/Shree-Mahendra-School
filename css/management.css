@@ -1,0 +1,145 @@
+/* breadcrumb global */
+.breadcrumb {
+  padding: 3% 5%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 73, 126, 0.31)), to(rgba(30, 73, 126, 0.277))), url("../images/20220422_073712.jpg");
+  background-image: linear-gradient(rgba(30, 73, 126, 0.31), rgba(30, 73, 126, 0.277)), url("../images/20220422_073712.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.managementMain {
+  padding: 40px 70px;
+}
+
+.managementMain .block1 {
+  margin-top: 40px;
+}
+
+.managementMain .block1 .paraCol .titleTag {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 50px;
+  color: #1E497E;
+  margin-bottom: 20px;
+}
+
+.managementMain .block1 .paraCol .paraTag {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.managementMain .block1 .paraCol .planstableWrapper .tableTitle {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1E497E;
+}
+
+.managementMain .block1 .paraCol .planstableWrapper table {
+  margin-top: 10px;
+}
+
+.managementMain .block1 .paraCol .planstableWrapper table .th1 {
+  width: 40px;
+}
+
+.managementMain .block1 .paraCol .planstableWrapper table .td2, .managementMain .block1 .paraCol .planstableWrapper table .td3 {
+  width: 150px;
+}
+
+.managementMain .block1 .analysisCol ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.managementMain .block1 .analysisCol ul .headTag {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1E497E;
+}
+
+.managementMain .block1 .analysisCol ul .subTag {
+  margin-left: 50px;
+}
+
+.managementMain .block1 .imgCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.managementMain .block1 .imgCol img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .managementMain {
+    padding: 20px;
+  }
+  .managementMain .block1 {
+    margin-top: 20px;
+  }
+  .managementMain .block1 .paraCol .titleTag {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1E497E;
+    margin-bottom: 20px;
+  }
+  .managementMain .block1 .paraCol .planstableWrapper {
+    overflow-x: scroll;
+  }
+  .managementMain .block1 .paraCol .planstableWrapper .tableTitle {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 21px;
+    color: #1E497E;
+  }
+  .managementMain .block1 .paraCol .planstableWrapper table .th2 {
+    width: 200px;
+  }
+  .managementMain .block1 .paraCol .planstableWrapper table .th3, .managementMain .block1 .paraCol .planstableWrapper table .th4 {
+    width: 200px;
+  }
+  .managementMain .block1 .paraCol .planstableWrapper table .td2, .managementMain .block1 .paraCol .planstableWrapper table .td3, .managementMain .block1 .paraCol .planstableWrapper table .td4, .managementMain .block1 .paraCol .planstableWrapper table .td5, .managementMain .block1 .paraCol .planstableWrapper table .td6 {
+    width: 100px;
+  }
+  .managementMain .block1 .analysisCol ul {
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+  }
+  .managementMain .block1 .analysisCol ul .headTag {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1E497E;
+  }
+  .managementMain .block1 .analysisCol ul .subTag {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=management.css.map */

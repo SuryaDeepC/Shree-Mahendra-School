@@ -1,0 +1,201 @@
+.contactHead {
+  margin-top: 100px;
+  padding: 0px 70px;
+}
+
+.contactHead h1 {
+  color: #1E497E;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.contact {
+  padding: 40px 70px;
+  background-color: #f8f8f8;
+}
+
+.contact .block1 .contactinfoCol .titleTag {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.contact .block1 .contactinfoCol ul {
+  padding: 0%;
+}
+
+.contact .block1 .contactinfoCol ul li {
+  list-style: none;
+  margin: 20px 0px;
+  font-weight: 500;
+}
+
+.contact .block1 .contactinfoCol ul li i {
+  margin-right: 5px;
+}
+
+.contact .block1 .contactinfoCol span i {
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.contact .block1 .contactformCol form .frow {
+  margin: 20px 0px;
+}
+
+.contact .block1 .contactformCol form .frow ::-webkit-input-placeholder {
+  color: black;
+}
+
+.contact .block1 .contactformCol form .frow :-ms-input-placeholder {
+  color: black;
+}
+
+.contact .block1 .contactformCol form .frow ::-ms-input-placeholder {
+  color: black;
+}
+
+.contact .block1 .contactformCol form .frow ::placeholder {
+  color: black;
+}
+
+.contact .block1 .contactformCol form .frow1 .form-group input, .contact .block1 .contactformCol form .frow2 .form-group input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.contact .block1 .contactformCol form .frow3 .radioBtn {
+  margin: 20px 0px;
+}
+
+.contact .block1 .contactformCol form .frow3 .radioBtn span {
+  margin-right: 50px;
+  font-weight: 500;
+}
+
+.contact .block1 .contactformCol form .frow3 .radioBtn input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.contact .block1 .contactformCol form .frow4 textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.contact .block1 .contactformCol form .frow5 .form-group {
+  margin-left: auto;
+}
+
+.contact .block1 .contactformCol form .frow5 .form-group input {
+  background-color: #1E497E;
+  color: white;
+  padding: auto 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .contactHead {
+    margin-top: 50px;
+    padding: 0px 20px;
+  }
+  .contactHead h1 {
+    color: #1E497E;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .contact {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  .contact .block1 .contactinfoCol .titleTag {
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  .contact .block1 .contactinfoCol ul {
+    padding: 0%;
+  }
+  .contact .block1 .contactinfoCol ul li {
+    list-style: none;
+    margin: 20px 0px;
+    font-weight: 500;
+  }
+  .contact .block1 .contactinfoCol ul li i {
+    margin-right: 5px;
+  }
+  .contact .block1 .contactinfoCol span i {
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .contact .block1 .contactformCol form .frow {
+    margin: 0px 0px;
+  }
+  .contact .block1 .contactformCol form .frow ::-webkit-input-placeholder {
+    color: black;
+  }
+  .contact .block1 .contactformCol form .frow :-ms-input-placeholder {
+    color: black;
+  }
+  .contact .block1 .contactformCol form .frow ::-ms-input-placeholder {
+    color: black;
+  }
+  .contact .block1 .contactformCol form .frow ::placeholder {
+    color: black;
+  }
+  .contact .block1 .contactformCol form .frow1 .form-group input, .contact .block1 .contactformCol form .frow2 .form-group input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    margin: 20px 0px;
+  }
+  .contact .block1 .contactformCol form .frow3 h3 {
+    font-size: 15px;
+  }
+  .contact .block1 .contactformCol form .frow3 .radioBtn {
+    margin: 5px 0px;
+  }
+  .contact .block1 .contactformCol form .frow3 .radioBtn span {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .contact .block1 .contactformCol form .frow3 .radioBtn input {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .contact .block1 .contactformCol form .frow4 textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  .contact .block1 .contactformCol form .frow5 .form-group {
+    margin: auto;
+  }
+  .contact .block1 .contactformCol form .frow5 .form-group input {
+    background-color: #1E497E;
+    color: white;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

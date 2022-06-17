@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----Bootstrap Links---->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <!----css Links---->
+
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/mian.css" />
+    <link rel="stylesheet" href="css/news.css" />
+
+    
+
+
+
+    <!---fontawsome--->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+        <!-- counter  script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+     <!-- slick slider (comment slider) script -->
+ <script
+ src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+ integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+></script>
+<link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+ integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+/>
+<link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+ integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+/>
+
+    <title>Mahendra School | News</title>
+  </head>
+  <body>
+    <!------------------------start------------------------>
+   
+    <!------------------------header------------------------>
+
+    <div class="container-fluid header1 d-lg-block d-none">
+      <div class="row block1 ">
+        <div class="col-12 headerCol ">
+          <div class="infoData ">
+            <ul class="">
+              <li><i class="fas fa-phone-volume"></i> 051-522131</li>
+              <li><i class="fas fa-envelope"></i> mahendramavi2021@gmail.com</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Bhimphedi,Makwanpur,Nepal</li>
+              <li class="socialBox">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!------------------------navbar------------------------>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top mainNav"
+    >
+      <div class="container-fluid navbarBox">
+        <div class="logoBox">
+          <a class="navbar-brand" href="index.html">
+            <img src="asset/logo1.png" alt="logo" />
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+          aria-controls="mynavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link" aria-current="page" href="index.html">गृहपृष्ठ</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+              हाम्रो बारे
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ourhistory.html">ऐतिहासिक पृष्ठभूमि</a></li>
+                <li><a class="dropdown-item" href="ourlocation.html">भौगालिक अवस्था</a></li>
+                <li><a class="dropdown-item" href="ourschoolbackground.html">विद्यालय समुदायको पृष्टभुमि</a></li>
+                <li><a class="dropdown-item" href="actionplan.html">शैक्षिकगुणस्तर सुधारका  कार्ययोजना </a></li>
+                <li><a class="dropdown-item" href="outbreakcalender.html">प्रकोप पात्रो</a></li>
+                <li><a class="dropdown-item" href="outbreakindefication.html">प्रकोपको पहिचान र स्तरीयकरण</a></li>
+                <li><a class="dropdown-item" href="naturaldisasters.html">प्राकृतिक प्रकोप</a></li>
+                <li><a class="dropdown-item" href="ebooks.html">इ–प’स्तकाय</a></li>
+                <li><a class="dropdown-item" href="aboutus.html">हाम्र्रो भनाई</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" aria-current="page" href="programs.html">कार्यक्रम</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              कक्षा
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="calss2077admission.html">२०७७ सालको विद्यार्थी भर्ना विवरण</a></li>
+                <li><a class="dropdown-item" href="IntrenalCapacity2076.html">आन्तरिक सक्षमताको अवस्था २०७६</a></li>
+                <li><a class="dropdown-item" href="leaningscore.html">विद्यार्थी सिकाइ उपलब्धी विवरण २०७६ को प्राप्ताङकका आधारमा </a></li>
+                <li><a class="dropdown-item" href="subjectscore.html">विद्यार्थीको कक्षागत विषयगत उत्तीर्ण प्रतिशत २०७६</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" aria-current="page" href="staffdetails.html">शिक्षक</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="news.html">समचार</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              व्यवस्थापन
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="schooloperationsystem.html">विद्यालय सञ्चालन व्यवस्था</a></li>
+                <li><a class="dropdown-item" href="physicalfacilities.html">भौतिक सुविधा व्यवस्था</a></li>
+                <li><a class="dropdown-item" href="schoolmanagement.html">विद्यालयको व्यवस्थापकीय प्रबन्ध</a></li>
+                <li><a class="dropdown-item" href="educationmaterials.html">शैक्षिक सामग्रीको व्यवस्था</a></li>
+                <li><a class="dropdown-item" href="managementresource.html">स्रोत व्यवस्थापन</a></li>
+                <li><a class="dropdown-item" href="managementproblem.html">मुख्य समस्या पहिचान</a></li>
+                <li><a class="dropdown-item" href="importantassessment.html">आवश्यकताको अँकलन</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="gallery.html"
+                >ग्यालेरी</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              अनुशासन
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="discipline.html">वि.व्य.स. र शि.अ.संघले पालना गर्नु पर्ने आचार संहिता</a></li>
+                <li><a class="dropdown-item" href="disciplineteacher.html"> शिक्षकले पालना गर्नु पर्ने आचार संहिता</a></li>
+                <li><a class="dropdown-item" href="disciplinestudent.html"> विद्यार्थीले पालना गर्नु पर्ने आचार संहिता</a></li>
+                <li><a class="dropdown-item" href="disciplineparents.html">अभिभावकको पालना गर्नु पर्ने आचार संहिता</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contactus.html"
+                >सम्पर्क</a
+              >
+            </li>
+            
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              योजना
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="ourplans.html">दूरदृष्टि</a></li>
+                <li><a class="dropdown-item" href="ourgoals.html">लक्ष्य निर्धारण </a></li>
+                <li><a class="dropdown-item" href="plandetailedactivity.html">विस्तृत कार्यकलाप पहिचान </a></li>
+                <li><a class="dropdown-item" href="annualimplementataio.html">वार्षिक कार्यान्वयन योजना</a></li>
+                <li><a class="dropdown-item" href="resourcemanagement.html">स्रोत व्यवस्थापन </a></li>
+                
+              </ul>
+            </li>
+          </ul>
+          <button class="btn btn-outline-success admissionBtn" type="submit" onclick="location.href='admission.html'">भर्ना</button>
+        </div>
+      </div>
+    </nav>
+     <!----scroll Btn---->
+     <div class="scroll-btn">
+      <a href="#"
+        ><span><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></span
+      ></a>
+    </div>
+
+
+     <!-----Breadcrumb section------>
+
+     <div class="container-fluid aboutc1 breadcrumb m-0">
+        <nav class="breadcrumbEx">
+          <h1 class="text-center text-white">समचार</h1>
+          <div class="breadcrumb-wrapper text-white text-center">
+            <span>
+              <a title="Homepage" href="index.html"
+                ><i class="fas fa-home"></i>&nbsp;&nbsp;गृहपृष्ठ</a
+              >
+            </span>
+
+            <span class="">&nbsp; : : &nbsp;</span>
+            <span class="" id="breadcrumbActive">समचार</span>
+
+          </div>
+        </nav>
+      </div>
+    <!------------------------news------------------------>
+
+  <!-----------------------Event Section----------------------------->
+
+
+  <div class="container-fluid newEventMainSection">
+
+    <div class="row block0" data-aos="fade-right" data-aos-duration="1000">
+      <div class="col-md-8 col-12 programCol">
+          <h1 class="headTag">समचार</h1>
+      </div>
+  </div>
+
+
+    <div class="row block1">
+      <div class="col-md-8 col-12 eventsCardCol">
+        <div class="row er1">
+          <div class="col-12 eventCardCol">
+          <div class="eventCard">
+            <div class="imgBlock">
+              <img src="images/FB_IMG_1652144599887.jpg" alt="">
+            </div>
+            <div class="paraBlock">
+              <div class="paraBlock">
+              
+                <div class="textPara">
+                  <p class="eventTitle">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="datePara">
+                <p class="paraTag">23 March 2022</p>
+            </div>
+
+            <div class="shortDisc">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui error et vero quam optio perspiciatis, natus soluta laudantium, aut maiores cupiditate consequatur eius rem magnam.</p>
+            </div>
+          <button onclick="location.href = 'newsdetail.html'">Read More</button>
+
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="row er1">
+          <div class="col-12 eventCardCol">
+          <div class="eventCard">
+            <div class="imgBlock">
+              <img src="images/20220418_144827.jpg" alt="">
+            </div>
+            <div class="paraBlock">
+              <div class="paraBlock">
+              
+                <div class="textPara">
+                  <p class="eventTitle">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="datePara">
+                <p class="paraTag">23 March 2022</p>
+            </div>
+
+            <div class="shortDisc">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui error et vero quam optio perspiciatis, natus soluta laudantium, aut maiores cupiditate consequatur eius rem magnam.</p>
+            </div>
+          <button onclick="location.href = 'newsdetail.html'">Read More</button>
+
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="row er1">
+          <div class="col-12 eventCardCol">
+          <div class="eventCard">
+            <div class="imgBlock">
+              <img src="images/20220418_144853.jpg" alt="">
+            </div>
+            <div class="paraBlock">
+              <div class="paraBlock">
+              
+                <div class="textPara">
+                  <p class="eventTitle">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="datePara">
+                <p class="paraTag">23 March 2022</p>
+            </div>
+
+            <div class="shortDisc">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui error et vero quam optio perspiciatis, natus soluta laudantium, aut maiores cupiditate consequatur eius rem magnam.</p>
+            </div>
+          <button onclick="location.href = 'newsdetail.html'">Read More</button>
+
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+        <div class="row er1">
+          <div class="col-12 eventCardCol">
+          <div class="eventCard">
+            <div class="imgBlock">
+              <img src="images/20220418_145152.jpg" alt="">
+            </div>
+            <div class="paraBlock">
+              <div class="paraBlock">
+              
+                <div class="textPara">
+                  <p class="eventTitle">Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="datePara">
+                <p class="paraTag">23 March 2022</p>
+            </div>
+
+            <div class="shortDisc">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui error et vero quam optio perspiciatis, natus soluta laudantium, aut maiores cupiditate consequatur eius rem magnam.</p>
+            </div>
+          <button onclick="location.href = 'newsdetail.html'">Read More</button>
+
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 recentCol">
+        <div class="row subscribeRow">
+          <div class="col-12">
+            <p>Welcome</p>
+            <h2 class="px-md-3 p-auto text-center">Subscribe To Our Newsletter</h2 class="px-md-3 p-auto text-center">
+            <input type="email" name="" id="" placeholder="Enter Email Here">
+            <input type="submit" value="SUBSCRIBE NOW">
+          </div>
+        </div>
+
+        <div class="row recentPostRow">
+          <div class="col-12">
+            <div class="headBlock">
+              <h3>Recent Post</h3>
+            </div>
+            <div class="recentPostBlock">
+              
+              <div class="postCardBlock">
+                <div class="imgBlock">
+                  <img src="images/FB_IMG_1652144599887.jpg" alt="">
+                </div>
+                <div class="paraBlock">
+                  
+                  <div class="eventTitleBox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="dateBox">
+                    <p class="paraTag">23 March 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="postCardBlock">
+                <div class="imgBlock">
+                  <img src="images/FB_IMG_1652144599887.jpg" alt="">
+                </div>
+                <div class="paraBlock">
+                  
+                  <div class="eventTitleBox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="dateBox">
+                    <p class="paraTag">23 March 2022</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="postCardBlock">
+                <div class="imgBlock">
+                  <img src="images/FB_IMG_1652144599887.jpg" alt="">
+                </div>
+                <div class="paraBlock">
+                  
+                  <div class="eventTitleBox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="dateBox">
+                    <p class="paraTag">23 March 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="postCardBlock">
+                <div class="imgBlock">
+                  <img src="images/FB_IMG_1652144599887.jpg" alt="">
+                </div>
+                <div class="paraBlock">
+                  
+                  <div class="eventTitleBox">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="dateBox">
+                    <p class="paraTag">23 March 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!------------------------footer------------------------>
+
+    <div class="container-fluid footer">
+      <div class="row block1">
+        <div class="col-md-4 col-12 footerCol footerCol1">
+          <div class="footerColCard">
+            <div class="imgBox">
+              <img src="asset/logo2.png" alt="logo"  />
+            </div>
+            <div class="paraBox">
+              <p>मकवानपुर जिल्लाको पुरानो सदरमुकाम तथा तत्कालीन समयको काठमाडौँ
+                उपत्यकाको प्रवेशद्वारको रुपमा रहेको भीमफेदी बजार एक ऐतिहासिक स्थान हो ।
+                राणाकालमा राणा प्रधानमन्त्री श्री ३ चन्द्र शम्शेर ज.ब.रा.ले तत्कालीन काठमाडौं र
+                मधेश प्रवेशको मूलद्वार एवम् देशको चलायमान व्यापारिक प्रशासनिक केन्द्रको रुपमा
+                रहेको भीमफेदी देश र परदेशबाट काठमाडौं आउन र जाने सबै खाले यात्रुहरुलाई
+                बासको असुबिधा भएको अवस्थामा सुविस्तासँग बस्न पाउन भनि वि.स. १९८२ सालमा
+                सुरु भइ वि.सं. १९८३ मा एक सुविधा सम्पन्न र व्यवस्थित २ तले १२ कोठा भएको
+                धर्मशालाको रुपमा निर्माण सम्पन्न  गरिएको शिलालेखमा भेटिएको छ ।</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12  footerCol footerCol2">
+          <h3>द्र’त लिड्ढहरु</h3>
+          <ul class="">
+            <li onclick="location.href='index.html'"><a href="index.html"> गृहपृष्ठ </a></li>
+            <li onclick="location.href='index.html'"><a href="programs.html"> कार्यक्रम </a></li>
+            <li onclick="location.href='index.html'"><a href="ourplans.html"> योजना </a></li>
+            <li onclick="location.href='index.html'"><a href="schooloperationsystem.html"> व्यवस्थापन </a></li>
+            <li onclick="location.href='index.html'"><a href="ebooks.html"> इ–प’स्तकाय </a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-12 footerCol footerCol3">
+          <h3>सम्पर्क</h3>
+          <ul>
+            <li><i class="fas fa-phone-volume"></i> ०५१–५२२१३१</li>
+            <li><i class="fas fa-envelope"></i> mahendramavi2021@gmail.com</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> भीमफेदी मकवानपुर</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row block2">
+        <div class="col-12 text-center">
+          <p>
+            Copyright © 2020. Developed & Powered by DYNAMIC TECHNOSOFT
+            <span
+              ><i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i
+            ></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------script------------------------>
+    <script src="js/counter.js"></script>
+    <script>
+      var swiper = new Swiper(".mainSlider", {
+  cssMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  mousewheel: true,
+  keyboard: true,
+});
+    </script>
+    <script src="js/commentSlider.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+      });
+    </script>
+  </body>
+</html>

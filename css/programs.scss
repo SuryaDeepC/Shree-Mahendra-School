@@ -1,0 +1,129 @@
+/* breadcrumb global */
+.breadcrumb {
+    padding: 3% 5%;
+  
+    height: 400px;
+    background-image: linear-gradient(rgba(30, 73, 126, 0.31),rgba(30, 73, 126, 0.277)), url("../images/20220418_145128.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+
+.programsMain{
+    padding: 40px 70px;
+
+    .block1{
+        margin-top: 40px;
+
+        .paraCol{
+            .titleTag{
+                font-weight: 800;
+                font-size: 45px;
+                line-height: 50px;
+                color: #1E497E;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .programCardWrapper{
+
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            width: 100%;
+            .programCard{
+                
+           
+                padding: 10px;
+                .programTag{
+                    cursor: pointer;
+                    width: 100%;
+                    height: 150px ;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+               
+                    font-weight: 800;
+                    font-size: 30px;
+                    line-height: 35px;
+                    text-align: center;
+                    color: #1E497E;
+                    background: #EBF2FB;
+                    padding: 30px;
+                }
+                .programTag:hover{
+                    background: #1E497E;
+                    color: white;
+                    transition: 0.3s ease-in-out;
+                }
+                .programTag.active{
+                    background: #1E497E;
+                    color: white;
+                }
+            }
+        }
+}
+
+@media (max-width:786px) {
+    .programsMain{
+        padding: 20px;
+    
+        .block1{
+            margin-top: 20px;
+    
+            .paraCol{
+                .titleTag{
+                    font-weight: 800;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #1E497E;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    
+        .programCardWrapper{
+    
+                // display: flex;
+                // justify-content: space-between;
+                // align-items: center;
+                width: 100%;
+                .programCard{
+                    
+               
+                    padding: 10px;
+                    .programTag{
+                        cursor: pointer;
+                        width: 100%;
+                        height: 150px ;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                   
+                        font-weight: 800;
+                        font-size: 16px;
+                        line-height: 35px;
+                        text-align: center;
+                        color: #1E497E;
+                        background: #EBF2FB;
+                        padding: 30px;
+                    }
+                    .programTag:hover{
+                        background: #1E497E;
+                        color: white;
+                        transition: 0.3s ease-in-out;
+                    }
+                    .programTag.active{
+                        background: #1E497E;
+                        color: white;
+                    }
+                }
+            }
+    }
+}

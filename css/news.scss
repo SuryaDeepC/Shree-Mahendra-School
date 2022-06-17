@@ -1,0 +1,904 @@
+@media (max-width:1000px){
+    .breadC1{
+        height: 150px;
+        background-size:100% 100%;
+        
+    }
+}
+
+
+.newEventMainSection{
+    padding: 40px 70px;
+    .block1{
+        .eventsCardCol{
+            .er1{
+                
+                .eventCardCol{
+                    .eventCard{
+                        height: 250px;
+                        width: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+
+                        margin: 20px 0px;
+
+
+                        .imgBlock{
+                            height: 100%;
+                            width: 100%;
+                            img{
+                                height: 100%;
+                            width: 100%;
+                            }
+                        }
+
+                        .paraBlock{
+                            padding: 0px 20px;
+
+                            .eventTitle{
+                                font-weight: 500;
+                            }
+
+                            button{
+                                background-color: #014396;
+                                color: white;
+                                border: 3px solid #014396;
+                                outline: none;
+                                padding: 2px;
+                            }
+                            button:hover{
+                                box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+                                transition: 0.3s ease-in;
+        
+                            }
+                        }
+                    }
+
+                    
+
+                }
+            }
+        }
+
+        .recentCol{
+            margin-top: 20px;
+            .subscribeRow{
+                .col-12{
+                    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+
+                    padding: 40px;
+                    background-color: #014396;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border-radius: 4px;
+                    input{
+                        width: 100%;
+                        margin: 10px 0px;
+                        height: 40px;
+                    }
+
+                    input[type='email']{
+                        padding: 5px;
+                    }
+                    ::placeholder{
+                        text-align: center;
+                    }
+
+                    input[type='submit']{
+                        background-color: #00d091;
+                        color: white;
+                        border: none;
+                    }
+
+
+                }
+            }
+
+
+            .recentPostRow{
+                 margin-top: 20px;
+
+                box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+                border-radius: 4px;
+                .headBlock{
+                    padding: 20px;
+                }
+                & .recentPostBlock{
+                    
+
+                    .postCardBlock{
+                        display: flex;
+                        padding: 20px 20px;
+                        border-top: 1px solid rgba(0, 0, 0, 0.138);
+                        cursor: pointer;
+
+                        
+                        .imgBlock{
+                            height: 100px;
+                            width: 100px;
+                            padding: 10px;
+                            border-radius: 4px;
+                            border: 1px solid rgba(0, 0, 0, 0.23);
+
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+
+                        .paraBlock{
+                            padding: 0px 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media(max-width:1090px) {
+    .newEventMainSection{
+        padding: 20px;
+        .block1{
+            .eventsCardCol{
+                .er1{
+                    
+                    .eventCardCol{
+                        .eventCard{
+                            height: 180px;
+                            width: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    
+                            margin: 20px 0px;
+    
+    
+                            .imgBlock{
+                                height: 100%;
+                                width: 100%;
+                                img{
+                                    height: 100%;
+                                width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 5px;
+    
+                                .eventTitle{
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                }
+                                .shortDisc{
+                                    font-size: 12px;
+                                    margin-top: -10px;
+                                }
+                                .datePara{
+                                    font-size: 10px;
+                                    margin-top: -10px;
+
+                                }
+    
+                                button{
+                                    background-color: #014396;
+                                    color: white;
+                                    border: 3px solid #014396;
+                                    outline: none;
+                                    padding: 2px;
+                                    font-size: 10px;
+                                }
+                                button:hover{
+                                    box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+                                    transition: 0.3s ease-in;
+            
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .recentCol{
+                margin-top: 20px;
+                .subscribeRow{
+                    .col-12{
+                        padding: 40px;
+                        background-color: #014396;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        border-radius: 4px;
+                        input{
+                            width: 100%;
+                            margin: 10px 0px;
+                            height: 40px;
+                        }
+    
+                        input[type='email']{
+                            padding: 5px;
+                        }
+                        ::placeholder{
+                            text-align: center;
+                        }
+    
+                        input[type='submit']{
+                            background-color: #00d091;
+                            color: white;
+                            border: none;
+                        }
+    
+    
+                    }
+                }
+    
+    
+                .recentPostRow{
+                     margin-top: 20px;
+    
+                    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+                    border-radius: 4px;
+                    .headBlock{
+                        padding: 20px;
+                    }
+                    & .recentPostBlock{
+                        
+    
+                        .postCardBlock{
+                            display: flex;
+                            padding: 20px 20px;
+                            border-top: 1px solid rgba(0, 0, 0, 0.138);
+                            cursor: pointer;
+    
+                            
+                            .imgBlock{
+                                height: 100px;
+                                width: 100px;
+                                padding: 10px;
+                                border-radius: 4px;
+                                border: 1px solid rgba(0, 0, 0, 0.23);
+    
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+}
+
+
+@media(max-width:600px) {
+    .newEventMainSection{
+        padding: 20px;
+        .block1{
+            .eventsCardCol{
+                .er1{
+                    
+                    .eventCardCol{
+                        .eventCard{
+                            height: 180px;
+                            width: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    
+                            margin: 20px 0px;
+    
+    
+                            .imgBlock{
+                                height: 100%;
+                                width: 100%;
+                                img{
+                                    height: 100%;
+                                width: 150px;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 5px;
+    
+                                .eventTitle{
+                                    font-weight: 500;
+                                    font-size: 10px;
+                                }
+                                .shortDisc{
+                                    font-size: 8px;
+                                    margin-top: -10px;
+                                }
+                                .datePara{
+                                    font-size: 10px;
+                                    margin-top: -10px;
+
+                                }
+    
+                                button{
+                                    background-color: #014396;
+                                    color: white;
+                                    border: 3px solid #014396;
+                                    outline: none;
+                                    padding: 2px;
+                                    font-size: 10px;
+                                }
+                                button:hover{
+                                    box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+                                    transition: 0.3s ease-in;
+            
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .recentCol{
+                margin-top: 20px;
+                .subscribeRow{
+                    .col-12{
+                        padding: 40px;
+                        background-color: #014396;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        border-radius: 4px;
+                        input{
+                            width: 100%;
+                            margin: 10px 0px;
+                            height: 40px;
+                        }
+    
+                        input[type='email']{
+                            padding: 5px;
+                        }
+                        ::placeholder{
+                            text-align: center;
+                        }
+    
+                        input[type='submit']{
+                            background-color: #00d091;
+                            color: white;
+                            border: none;
+                        }
+    
+    
+                    }
+                }
+    
+    
+                .recentPostRow{
+                     margin-top: 20px;
+    
+                    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+                    border-radius: 4px;
+                    .headBlock{
+                        padding: 20px;
+                    }
+                    & .recentPostBlock{
+                        
+    
+                        .postCardBlock{
+                            display: flex;
+                            padding: 20px 20px;
+                            border-top: 1px solid rgba(0, 0, 0, 0.138);
+                            cursor: pointer;
+    
+                            
+                            .imgBlock{
+                                height: 100px;
+                                width: 120px;
+                                padding: 5px;
+                                border-radius: 4px;
+                                border: 1px solid rgba(0, 0, 0, 0.23);
+    
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+}
+
+
+
+
+/*-----event page description style-----*/
+
+
+.eventdetailpage{
+    padding: 40px 70px;
+    margin-bottom: 40px;
+
+}
+.eventdetailpage h2{
+    margin-bottom: 20px;
+}
+
+
+
+@media(max-width:600px) {
+    .eventdetailpage{
+        padding: 20px;
+        text-align: justify;
+    }
+
+
+}
+
+
+
+
+/*-----------new ------------*/
+
+.newEventDetailPage{
+    padding: 40px 70px;
+    .block1{
+        .eventsdetailCardCol{
+            .eventfullpageRow{
+                .imgCol{
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .headBlock{
+                margin: 10px 0px;
+                i{
+                    color: #014396;
+                }
+            }
+
+            .shareCol{
+
+                .commentBox{
+                    display: flex;
+                    flex-direction: column;
+                    input{
+                        width: 100%;
+                        height: 150px;
+                        border: 1px solid #014396;
+                        border-radius: 4px;
+                        padding: 5px;
+                    }
+                    
+                    button{
+                        margin-top: 10px;
+                        background-color: #014396;
+                        color: white;
+                        border: 3px solid #014396;
+                        outline: none;
+                        padding: 2px;
+                        width: fit-content;
+                    }
+                    button:hover{
+                        box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+                        transition: 0.3s ease-in;
+
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                i{
+                    background-color: white;
+                    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.101);
+                    color: #014396;
+                    padding: 8px 10px;
+                    border-radius: 50%;
+                    margin-left: 5px;
+                }
+
+                .fa-instagram{
+                    padding: 8px 10px;
+                }
+                .fa-youtube{
+                    padding: 8px 8px;
+                }
+                .fa-facebook-f{
+                    padding: 8px 12px;
+                }
+            }
+        }
+
+        .recentCol{
+            .subscribeRow{
+                .col-12{
+                    padding: 40px;
+                    background-color: #014396;
+                    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    border-radius: 4px;
+                    input{
+                        width: 100%;
+                        margin: 10px 0px;
+                        height: 40px;
+                    }
+
+                    input[type='email']{
+                        padding: 5px;
+                    }
+                    ::placeholder{
+                        text-align: center;
+                    }
+
+                    input[type='submit']{
+                        background-color: #00d091;
+                        color: white;
+                        border: none;
+                    }
+
+
+                }
+            }
+
+
+            .recentPostRow{
+                 margin-top: 20px;
+
+                 box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+                border-radius: 4px;
+                .headBlock{
+                    padding: 20px;
+                }
+                & .recentPostBlock{
+                    
+
+                    .postCardBlock{
+                        display: flex;
+                        padding: 20px 20px;
+                        border-top: 1px solid rgba(0, 0, 0, 0.138);
+                        cursor: pointer;
+
+                        
+                        .imgBlock{
+                            height: 100px;
+                            width: 100px;
+                            padding: 10px;
+                            border-radius: 4px;
+                            border: 1px solid rgba(0, 0, 0, 0.23);
+
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+
+                        .paraBlock{
+                            padding: 0px 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media(max-width:1090px) {
+    .newEventDetailPage{
+        padding: 20px;
+        .block1{
+            .eventsCardCol{
+                .er1{
+                    
+                    .eventCardCol{
+                        .eventCard{
+                            height: 180px;
+                            width: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            
+
+    
+                            margin: 20px 0px;
+    
+    
+                            .imgBlock{
+                                height: 100%;
+                                width: 100%;
+                                img{
+                                    height: 100%;
+                                width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 5px;
+    
+                                .eventTitle{
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                }
+                                .shortDisc{
+                                    font-size: 12px;
+                                    margin-top: -10px;
+                                }
+                                .datePara{
+                                    font-size: 10px;
+                                    margin-top: -10px;
+
+                                }
+    
+                                button{
+                                    background-color: #014396;
+                                    color: white;
+                                    border: 3px solid #014396;
+                                    outline: none;
+                                    padding: 2px;
+                                    font-size: 10px;
+                                }
+                                button:hover{
+                                    transition: 0.3s ease-in;
+            
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .recentCol{
+                margin-top: 20px;
+                .subscribeRow{
+                    .col-12{
+                        padding: 40px;
+                        background-color: #014396;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        border-radius: 4px;
+                        input{
+                            width: 100%;
+                            margin: 10px 0px;
+                            height: 40px;
+                        }
+    
+                        input[type='email']{
+                            padding: 5px;
+                        }
+                        ::placeholder{
+                            text-align: center;
+                        }
+    
+                        input[type='submit']{
+                            background-color: #00d091;
+                            color: white;
+                            border: none;
+                        }
+    
+    
+                    }
+                }
+    
+    
+                .recentPostRow{
+                     margin-top: 20px;
+    
+                    border-radius: 4px;
+                    .headBlock{
+                        padding: 20px;
+                    }
+                    & .recentPostBlock{
+                        
+    
+                        .postCardBlock{
+                            display: flex;
+                            padding: 20px 20px;
+                            cursor: pointer;
+    
+                            
+                            .imgBlock{
+                                height: 100px;
+                                width: 100px;
+                                padding: 10px;
+                                border-radius: 4px;
+                                border: 1px solid rgba(0, 0, 0, 0.23);
+    
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+}
+
+
+@media(max-width:600px) {
+    .newEventDetailPage{
+        padding: 20px;
+        .block1{
+            .eventsCardCol{
+                .er1{
+                    
+                    .eventCardCol{
+                        .eventCard{
+                            height: 180px;
+                            width: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+    
+                            margin: 20px 0px;
+    
+    
+                            .imgBlock{
+                                height: 100%;
+                                width: 100%;
+                                img{
+                                    height: 100%;
+                                width: 150px;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 5px;
+    
+                                .eventTitle{
+                                    font-weight: 500;
+                                    font-size: 10px;
+                                }
+                                .shortDisc{
+                                    font-size: 8px;
+                                    margin-top: -10px;
+                                }
+                                .datePara{
+                                    font-size: 10px;
+                                    margin-top: -10px;
+
+                                }
+    
+                                button{
+                                    background-color: #014396;
+                                    color: white;
+                                    border: 3px solid #014396;
+                                    outline: none;
+                                    padding: 2px;
+                                    font-size: 10px;
+                                }
+                                button:hover{
+                                    transition: 0.3s ease-in;
+            
+                                }
+                            }
+                        }
+    
+                    }
+                }
+            }
+    
+            .recentCol{
+                margin-top: 20px;
+                .subscribeRow{
+                    .col-12{
+                        padding: 40px;
+                        background-color: #014396;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        border-radius: 4px;
+                        input{
+                            width: 100%;
+                            margin: 10px 0px;
+                            height: 40px;
+                        }
+    
+                        input[type='email']{
+                            padding: 5px;
+                        }
+                        ::placeholder{
+                            text-align: center;
+                        }
+    
+                        input[type='submit']{
+                            background-color: #00d091;
+                            color: white;
+                            border: none;
+                        }
+    
+    
+                    }
+                }
+    
+    
+                .recentPostRow{
+                     margin-top: 20px;
+    
+                    border-radius: 4px;
+                    .headBlock{
+                        padding: 20px;
+                    }
+                    & .recentPostBlock{
+                        
+    
+                        .postCardBlock{
+                            display: flex;
+                            padding: 20px 20px;
+                            border-top: 1px solid rgba(0, 0, 0, 0.138);
+                            cursor: pointer;
+    
+                            
+                            .imgBlock{
+                                height: 100px;
+                                width: 120px;
+                                padding: 5px;
+                                border-radius: 4px;
+                                border: 1px solid rgba(0, 0, 0, 0.23);
+    
+                                img{
+                                    height: 100%;
+                                    width: 100%;
+                                }
+                            }
+    
+                            .paraBlock{
+                                padding: 0px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+    
+        }
+    }
+}

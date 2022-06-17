@@ -1,0 +1,229 @@
+.contactHead{
+    margin-top: 100px ;
+    h1{
+        color: #1E497E;
+    font-weight: bold;
+    font-size: 55px;
+    }
+    padding: 0px 70px;
+}
+
+.contact{
+    padding: 40px 70px;
+    background-color: rgb(248, 248, 248);
+    .block1{
+        .contactinfoCol{
+            .titleTag{
+                margin-top: 20px;
+                font-weight: 500;
+            }
+            ul{
+
+                padding: 0%;
+                li{
+                    list-style: none;
+                    margin: 20px 0px;
+                    font-weight: 500;
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+            }
+            span{
+
+                i{
+                    font-size: 25px;
+                    margin-right: 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .contactformCol{
+            form{
+                .frow{
+                    margin: 20px 0px;
+                    input{
+                    }
+                    ::placeholder{
+                        color: black;
+
+                    }
+                }
+
+                .frow1,.frow2{
+                    .form-group{
+                        input{
+                            border: none;
+                            background-color: transparent;
+                            border-bottom: 2px solid black;
+                            border-radius: 0px;
+                            box-shadow: none;
+                            outline: none;
+                        }
+                    }
+                }
+
+                .frow3{
+
+                    .radioBtn{
+                    margin: 20px 0px;
+
+                        span{
+                            margin-right: 50px;
+                            font-weight: 500;
+                        }
+                        input{
+                            margin-right: 5px;
+                            cursor: pointer;
+                        }
+                        
+                    }
+                }
+
+                .frow4{
+                    textarea{
+                        border: none;
+                            background-color: transparent;
+                            border-bottom: 2px solid black;
+                            border-radius: 0px;
+                            box-shadow: none;
+                            outline: none;
+                    }
+                }
+
+                .frow5{
+                    .form-group{
+                        margin-left: auto;
+                        input{
+                            background-color: #1E497E;
+                            color: white;
+                            padding: auto 10px;
+                            width: fit-content;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contactHead{
+        margin-top: 50px ;
+        h1{
+            color: #1E497E;
+        font-weight: bold;
+        font-size: 25px;
+        }
+        padding: 0px 20px;
+    }
+    .contact{
+        padding: 20px;
+        background-color: rgb(248, 248, 248);
+        .block1{
+            .contactinfoCol{
+                .titleTag{
+                    margin-top: 20px;
+                    font-weight: 500;
+                }
+                ul{
+    
+                    padding: 0%;
+                    li{
+                        list-style: none;
+                        margin: 20px 0px;
+                        font-weight: 500;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                span{
+    
+                    i{
+                        font-size: 25px;
+                        margin-right: 15px;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+            .contactformCol{
+                form{
+                    .frow{
+                        margin: 0px 0px;
+                        input{
+                        }
+                        ::placeholder{
+                            color: black;
+    
+                        }
+                    }
+    
+                    .frow1,.frow2{
+                        .form-group{
+                            input{
+                                border: none;
+                                background-color: transparent;
+                                border-bottom: 2px solid black;
+                                border-radius: 0px;
+                                box-shadow: none;
+                                outline: none;
+                                margin: 20px 0px;
+                            }
+                        }
+                    }
+    
+                    .frow3{
+                        h3{
+                            font-size: 15px;
+                        }
+                        .radioBtn{
+                        margin: 5px 0px;
+    
+                            span{
+                                margin-right: 10px;
+                                font-weight: 500;
+                                font-size: 10px;
+                            }
+                            input{
+                                margin-right: 5px;
+                                cursor: pointer;
+                            }
+                            
+                        }
+                    }
+    
+                    .frow4{
+                        textarea{
+                            border: none;
+                                background-color: transparent;
+                                border-bottom: 2px solid black;
+                                border-radius: 0px;
+                                box-shadow: none;
+                                outline: none;
+                                margin-bottom: 10px;
+                        }
+                    }
+    
+                    .frow5{
+                        .form-group{
+                            margin: auto;
+                            input{
+                                background-color: #1E497E;
+                                color: white;
+                            }
+                        }
+                    }
+    
+                    
+                }
+            }
+        }
+    }
+}
+
+

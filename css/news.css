@@ -1,0 +1,881 @@
+@media (max-width: 1000px) {
+  .breadC1 {
+    height: 150px;
+    background-size: 100% 100%;
+  }
+}
+
+.newEventMainSection {
+  padding: 40px 70px;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard {
+  height: 250px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+  margin: 20px 0px;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock {
+  height: 100%;
+  width: 100%;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock img {
+  height: 100%;
+  width: 100%;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock {
+  padding: 0px 20px;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .eventTitle {
+  font-weight: 500;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button {
+  background-color: #014396;
+  color: white;
+  border: 3px solid #014396;
+  outline: none;
+  padding: 2px;
+}
+
+.newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button:hover {
+  -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+          box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.newEventMainSection .block1 .recentCol {
+  margin-top: 20px;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 {
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+  padding: 40px;
+  background-color: #014396;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-radius: 4px;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+  padding: 5px;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+  text-align: center;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+  text-align: center;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+  text-align: center;
+}
+
+.newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+  background-color: #00d091;
+  color: white;
+  border: none;
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow {
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+  border-radius: 4px;
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow .headBlock {
+  padding: 20px;
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.138);
+  cursor: pointer;
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+  height: 100%;
+  width: 100%;
+}
+
+.newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+  padding: 0px 20px;
+}
+
+@media (max-width: 1090px) {
+  .newEventMainSection {
+    padding: 20px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard {
+    height: 180px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    margin: 20px 0px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock {
+    padding: 0px 5px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .eventTitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .shortDisc {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .datePara {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button {
+    background-color: #014396;
+    color: white;
+    border: 3px solid #014396;
+    outline: none;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button:hover {
+    -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+  .newEventMainSection .block1 .recentCol {
+    margin-top: 20px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 {
+    padding: 40px;
+    background-color: #014396;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 4px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input {
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+    padding: 5px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+    background-color: #00d091;
+    color: white;
+    border: none;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow {
+    margin-top: 20px;
+    -webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+            box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+    border-radius: 4px;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .headBlock {
+    padding: 20px;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.138);
+    cursor: pointer;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newEventMainSection {
+    padding: 20px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard {
+    height: 180px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    margin: 20px 0px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock img {
+    height: 100%;
+    width: 150px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock {
+    padding: 0px 5px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .eventTitle {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .shortDisc {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .datePara {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button {
+    background-color: #014396;
+    color: white;
+    border: 3px solid #014396;
+    outline: none;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .newEventMainSection .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button:hover {
+    -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+            box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+  .newEventMainSection .block1 .recentCol {
+    margin-top: 20px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 {
+    padding: 40px;
+    background-color: #014396;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 4px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input {
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+    padding: 5px;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+    text-align: center;
+  }
+  .newEventMainSection .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+    background-color: #00d091;
+    color: white;
+    border: none;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow {
+    margin-top: 20px;
+    -webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+            box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.114);
+    border-radius: 4px;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .headBlock {
+    padding: 20px;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.138);
+    cursor: pointer;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+    height: 100px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventMainSection .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+    padding: 0px 20px;
+  }
+}
+
+/*-----event page description style-----*/
+.eventdetailpage {
+  padding: 40px 70px;
+  margin-bottom: 40px;
+}
+
+.eventdetailpage h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .eventdetailpage {
+    padding: 20px;
+    text-align: justify;
+  }
+}
+
+/*-----------new ------------*/
+.newEventDetailPage {
+  padding: 40px 70px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .eventfullpageRow .imgCol img {
+  height: 100%;
+  width: 100%;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .headBlock {
+  margin: 10px 0px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .headBlock i {
+  color: #014396;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .commentBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .commentBox input {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #014396;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .commentBox button {
+  margin-top: 10px;
+  background-color: #014396;
+  color: white;
+  border: 3px solid #014396;
+  outline: none;
+  padding: 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .commentBox button:hover {
+  -webkit-box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+          box-shadow: 0 0 2px 2px rgba(32, 169, 248, 0.199);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol i {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.101);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.101);
+  color: #014396;
+  padding: 8px 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .fa-instagram {
+  padding: 8px 10px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .fa-youtube {
+  padding: 8px 8px;
+}
+
+.newEventDetailPage .block1 .eventsdetailCardCol .shareCol .fa-facebook-f {
+  padding: 8px 12px;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 {
+  padding: 40px;
+  background-color: #014396;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border-radius: 4px;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 40px;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+  padding: 5px;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+  text-align: center;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+  text-align: center;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+  text-align: center;
+}
+
+.newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+  background-color: #00d091;
+  color: white;
+  border: none;
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow {
+  margin-top: 20px;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.114);
+  border-radius: 4px;
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow .headBlock {
+  padding: 20px;
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.138);
+  cursor: pointer;
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+  height: 100%;
+  width: 100%;
+}
+
+.newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+  padding: 0px 20px;
+}
+
+@media (max-width: 1090px) {
+  .newEventDetailPage {
+    padding: 20px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard {
+    height: 180px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px 0px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock {
+    padding: 0px 5px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .eventTitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .shortDisc {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .datePara {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button {
+    background-color: #014396;
+    color: white;
+    border: 3px solid #014396;
+    outline: none;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button:hover {
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+  .newEventDetailPage .block1 .recentCol {
+    margin-top: 20px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 {
+    padding: 40px;
+    background-color: #014396;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 4px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input {
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+    padding: 5px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+    background-color: #00d091;
+    color: white;
+    border: none;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow {
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .headBlock {
+    padding: 20px;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 20px;
+    cursor: pointer;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newEventDetailPage {
+    padding: 20px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard {
+    height: 180px;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px 0px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .imgBlock img {
+    height: 100%;
+    width: 150px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock {
+    padding: 0px 5px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .eventTitle {
+    font-weight: 500;
+    font-size: 10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .shortDisc {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock .datePara {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button {
+    background-color: #014396;
+    color: white;
+    border: 3px solid #014396;
+    outline: none;
+    padding: 2px;
+    font-size: 10px;
+  }
+  .newEventDetailPage .block1 .eventsCardCol .er1 .eventCardCol .eventCard .paraBlock button:hover {
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+  .newEventDetailPage .block1 .recentCol {
+    margin-top: 20px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 {
+    padding: 40px;
+    background-color: #014396;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 4px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input {
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='email'] {
+    padding: 5px;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 :-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::-ms-input-placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 ::placeholder {
+    text-align: center;
+  }
+  .newEventDetailPage .block1 .recentCol .subscribeRow .col-12 input[type='submit'] {
+    background-color: #00d091;
+    color: white;
+    border: none;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow {
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .headBlock {
+    padding: 20px;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.138);
+    cursor: pointer;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock {
+    height: 100px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .imgBlock img {
+    height: 100%;
+    width: 100%;
+  }
+  .newEventDetailPage .block1 .recentCol .recentPostRow .recentPostBlock .postCardBlock .paraBlock {
+    padding: 0px 20px;
+  }
+}
+/*# sourceMappingURL=news.css.map */

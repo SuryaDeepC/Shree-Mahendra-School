@@ -1,0 +1,110 @@
+/* breadcrumb global */
+.breadcrumb {
+  padding: 3% 5%;
+  height: 400px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 73, 126, 0.31)), to(rgba(30, 73, 126, 0.277))), url("../images/FB_IMG_1652144603902.jpg");
+  background-image: linear-gradient(rgba(30, 73, 126, 0.31), rgba(30, 73, 126, 0.277)), url("../images/FB_IMG_1652144603902.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plansMain {
+  padding: 40px 70px;
+}
+
+.plansMain .block1 {
+  margin-top: 40px;
+}
+
+.plansMain .block1 .paraCol .titleTag {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 50px;
+  color: #1E497E;
+  margin-bottom: 20px;
+}
+
+.plansMain .block1 .paraCol .paraTag {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.plansMain .block1 .paraCol .planstableWrapper .tableTitle {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 21px;
+  color: #1E497E;
+}
+
+.plansMain .block1 .paraCol .planstableWrapper table {
+  margin-top: 10px;
+}
+
+.plansMain .block1 .paraCol .planstableWrapper table .th1 {
+  width: 40px;
+}
+
+.plansMain .block1 .imgCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.plansMain .block1 .imgCol img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .plansMain {
+    padding: 20px;
+  }
+  .plansMain .block1 {
+    margin-top: 20px;
+  }
+  .plansMain .block1 .paraCol .titleTag {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1E497E;
+    margin-bottom: 20px;
+  }
+  .plansMain .block1 .paraCol .planstableWrapper {
+    overflow-x: scroll;
+  }
+  .plansMain .block1 .paraCol .planstableWrapper .tableTitle {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 21px;
+    color: #1E497E;
+  }
+  .plansMain .block1 .paraCol .planstableWrapper table .th2 {
+    width: 200px;
+  }
+  .plansMain .block1 .paraCol .planstableWrapper table .th3, .plansMain .block1 .paraCol .planstableWrapper table .th4 {
+    width: 200px;
+  }
+  .plansMain .block1 .paraCol .planstableWrapper table .td2, .plansMain .block1 .paraCol .planstableWrapper table .td3, .plansMain .block1 .paraCol .planstableWrapper table .td4, .plansMain .block1 .paraCol .planstableWrapper table .td5, .plansMain .block1 .paraCol .planstableWrapper table .td6 {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=plans.css.map */

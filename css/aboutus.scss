@@ -1,0 +1,207 @@
+/* breadcrumb global */
+.breadcrumb {
+    padding: 3% 5%;
+  
+    height: 400px;
+    background-image: linear-gradient(rgba(30, 73, 126, 0.31),rgba(30, 73, 126, 0.277)), url("../images/FB_IMG_1652144599887.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+  
+  }
+
+.aboutusMain{
+    padding: 40px 70px;
+    
+    .block1{
+        margin-top: 40px;
+        .paraCol{
+            .paraBox{
+                .titleTag{
+                    font-weight: 800;
+                    font-size: 45px;
+                    line-height: 50px;
+                    color: #1E497E;
+                    margin-bottom: 20px;
+                }
+                .paraTag{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+            }
+        }
+
+       
+
+        .imgCol{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    /* history style */
+    .block2{
+        .imgCol{
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:786px) {
+    .aboutusMain{
+        padding: 20px;
+        .block1{
+            .paraCol{
+                .paraBox{
+                    .titleTag{
+                        font-weight: 800;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #1E497E;
+                        margin-bottom: 20px;
+                    }
+                    .paraTag{
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 21px;
+                        color: #000000;
+                    }
+                }
+            }
+    
+            .imgCol{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* our school */
+
+.ourSchool{
+    .block1{
+        margin-top: 40px;
+       
+
+        .imgCol{
+            height: 450px;
+            overflow: hidden;
+            border-radius: 0px 50px;
+            
+            
+                    img{
+                      width: 100%;
+            height: 100%;
+            border-radius: 0px 50px;
+            transform: scale(1.5);
+            overflow: hidden;
+                    }
+        }
+    }
+}
+@media (max-width:786px) {
+    .ourSchool{
+        .block1{
+            margin-top: 40px;
+           
+    
+            .imgCol{
+                height: 350px;
+                overflow: hidden;
+                border-radius: 0px 50px;
+
+                
+                
+                        img{
+                          width: 100%;
+                height: 100%;
+                border-radius: 0px 50px;
+                transform: scale(1.5);
+                overflow: hidden;
+                        }
+            }
+        }
+    }
+}
+
+/* our EBooks */
+.ourEBooks{
+.block1{
+    .paraCol{
+       
+    }
+}
+
+.gradeCalssCardWrapper{
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    width: 100%;
+    .gradeCard{
+        
+   
+        padding: 10px;
+        .gradeTag{
+            cursor: pointer;
+            width: 100%;
+            height: 100px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+       
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+            color: #1E497E;
+            background: #EBF2FB;
+        }
+        .gradeTag:hover{
+            background: #1E497E;
+            color: white;
+            transition: 0.3s ease-in-out;
+        }
+        .gradeTag.active{
+            background: #1E497E;
+            color: white;
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
